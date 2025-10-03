@@ -67,7 +67,7 @@ int main()
 {
     stack obj;
     int choice;
-    cout<<"\t\t*****STACK USING LINNKED LIST******\n\n";
+    cout<<"\t\t*****STACK USING LINKED LIST******\n\n";
     cout<<"1.push\n";
     cout<<"2.Pop\n";
     cout<<"3.Peek\n";
@@ -98,7 +98,7 @@ int main()
             cout<<"\n\tExit Successfully...\n";
             break;
         default:
-            cout<<"Invalid Choice : Choose Options Between 1-5\n";
+            cout<<"\n\tInvalid Choice : Choose Options Between 1-5\n";
             break;
         }
     }while(choice!=5);
