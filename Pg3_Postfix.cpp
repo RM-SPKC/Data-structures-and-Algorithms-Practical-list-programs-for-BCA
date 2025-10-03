@@ -92,8 +92,8 @@ int eval(char *postfix)
 int main()
 {
 	char exp[20],postfix[20];
-	cout<<"\t\t\tINFIX TO POSTFIX EXPRESSION\n";
-	cout<<"\t\t\t---------------------------\n";
+	cout<<"\t\t\tINFIX TO POSTFIX EXPRESSION AND EVALUATION\n";
+	cout<<"\t\t\t------------------------------------------\n";
 	cout<<"\n\nEnter the infix expression : ";
 	cin>>exp;
 	conversion(exp,postfix);
