@@ -72,7 +72,7 @@ int main()
 {
     queue obj;
     int choice;
-    cout<<"\t\t\t*****QUEUE USING LINNKED LIST******\n\n";
+    cout<<"\t\t\t*****QUEUE USING LINKED LIST******\n\n";
     cout<<"1.Enqueue\n";
     cout<<"2.Dequeue\n";
     cout<<"3.Peek\n";
