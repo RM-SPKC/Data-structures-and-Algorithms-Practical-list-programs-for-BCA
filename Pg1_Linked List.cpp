@@ -143,25 +143,25 @@ int main()
         {
             case 1:
                 obj.insertnode();
-                cout<<""<<endl;
+                cout<<" "<<endl;
                 break;
             case 2:
                 obj.deletenode();
-                cout<<""<<endl;
+                cout<<" "<<endl;
                 break;
             case 3:
                 obj.searchh();
-                cout<<""<<endl;
+                cout<<" "<<endl;
                 break;
             case 4:
                 obj.display();
-                cout<<""<<endl;
+                cout<<" "<<endl;
                 break;
             case 5:
-                cout<<"Exiting...."<<endl;
+                cout<<"\n\tExiting...."<<endl;
                 break;
             default:
-                cout<<" Enter the Choice between 1-5 "<<endl;
+                cout<<"\n\tEnter the Choice between 1-5 "<<endl;
                 break;
         }
     }while(choice!=5);
